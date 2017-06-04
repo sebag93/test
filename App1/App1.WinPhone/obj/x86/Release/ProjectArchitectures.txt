@@ -1,0 +1,2 @@
+C:\Users\sebs\Desktop\App11\App1\App1.WinPhone\SI2projekt.WinPhone.csproj;x86
+C:\Users\sebs\Desktop\App11\App1\App1\SI2projekt.csproj;neutral

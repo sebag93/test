@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SI2projekt.Budynki2">
+  
+  <Label x:Name="txtNiemaza" Style="{StaticResource HeaderStyle}"/>
+  <ListView x:Name="lstBuldings" ItemTapped="LstBuldings_OnItemTapped">
+    <ListView.ItemTemplate>
+      <DataTemplate>
+        <TextCell TextColor="Black"
+                  Text="{Binding Key}"
+                  Detail="{Binding Value}"
+                  Command="{Binding CmdNavigate}"
+                  CommandParameter="{Binding Value}"></TextCell>
+      </DataTemplate>
+    </ListView.ItemTemplate>
+  </ListView>
+</ContentPage>
+<!--Bindowanie danych, czyli na polski wiązanie danych z kontrolką to proces w którym pobieramy dane i łączymy je z kontrolką na formie-->
+<!--powiązania z danymi znajdującymi sie w ViewModel-->

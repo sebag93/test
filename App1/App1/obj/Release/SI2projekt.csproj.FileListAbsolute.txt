@@ -1,0 +1,51 @@
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\Aplikacja Student.dll
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\Aplikacja Student.pdb
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\Corcav.Behaviors.dll
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\HtmlAgilityPack.dll
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\Microsoft.Threading.Tasks.dll
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\Newtonsoft.Json.dll
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\PCLStorage.Abstractions.dll
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\PCLStorage.dll
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\Plugin.Geolocator.Abstractions.dll
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\Plugin.Geolocator.dll
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\Xamarin.Forms.Core.dll
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\Xamarin.Forms.Maps.dll
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\Xamarin.Forms.Platform.dll
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\Xamarin.Forms.Xaml.dll
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\Corcav.Behaviors.pdb
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\Corcav.Behaviors.xml
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\HtmlAgilityPack.pdb
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\Microsoft.Threading.Tasks.xml
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\Newtonsoft.Json.xml
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\PCLStorage.xml
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\PCLStorage.Abstractions.xml
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\Plugin.Geolocator.pdb
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\Plugin.Geolocator.xml
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\Plugin.Geolocator.Abstractions.pdb
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\Plugin.Geolocator.Abstractions.xml
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\Xamarin.Forms.Core.pdb
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\Xamarin.Forms.Core.xml
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\Xamarin.Forms.Maps.xml
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\Xamarin.Forms.Platform.pdb
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\Xamarin.Forms.Xaml.pdb
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\Xamarin.Forms.Xaml.xml
+C:\Users\sebs\Desktop\App11\App1\App1\obj\Release\PomocnikStudenta.Pages.StartPage.xaml.g.cs
+C:\Users\sebs\Desktop\App11\App1\App1\obj\Release\PomocnikStudenta.Pages.PlanPage.xaml.g.cs
+C:\Users\sebs\Desktop\App11\App1\App1\obj\Release\PomocnikStudenta.Pages.LoginPage.xaml.g.cs
+C:\Users\sebs\Desktop\App11\App1\App1\obj\Release\PomocnikStudenta.Pages.Budynki.xaml.g.cs
+C:\Users\sebs\Desktop\App11\App1\App1\obj\Release\PomocnikStudenta.Pages.Navigation.xaml.g.cs
+C:\Users\sebs\Desktop\App11\App1\App1\obj\Release\PomocnikStudenta.App.xaml.g.cs
+C:\Users\sebs\Desktop\App11\App1\App1\obj\Release\PomocnikStudenta.Pages.Ustawienia.xaml.g.cs
+C:\Users\sebs\Desktop\App11\App1\App1\obj\Release\PomocnikStudenta.Pages.DaneZeStrony.xaml.g.cs
+C:\Users\sebs\Desktop\App11\App1\App1\obj\Release\PomocnikStudenta.Pages.Budynki2.xaml.g.cs
+C:\Users\sebs\Desktop\App11\App1\App1\obj\Release\PomocnikStudenta.Pages.DaneZeStrony2.xaml.g.cs
+C:\Users\sebs\Desktop\App11\App1\App1\obj\Release\Aplikacja Student.dll
+C:\Users\sebs\Desktop\App11\App1\App1\obj\Release\Aplikacja Student.pdb
+C:\Users\sebs\Desktop\App11\App1\App1\obj\Release\Aplikacja Student.dll.mdb
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\Aplikacja Student.dll.mdb
+C:\Users\sebs\Desktop\App11\App1\App1\obj\Release\Aplikacja Student.dll.mdb
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\Aplikacja Student.dll.mdb
+C:\Users\sebs\Desktop\App11\App1\App1\obj\Release\Aplikacja Student.dll.mdb
+C:\Users\sebs\Desktop\App11\App1\App1\bin\Release\Aplikacja Student.dll.mdb

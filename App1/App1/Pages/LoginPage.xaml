@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SI2projekt.LoginPage">
+
+
+    <Grid>
+      <Grid.RowDefinitions>
+        <RowDefinition  Height="150" />
+        <RowDefinition  Height="Auto"/>
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto"/>
+        <RowDefinition  Height="150"/>
+          <RowDefinition Height="Auto"/>
+       
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition />
+        <ColumnDefinition/>
+      </Grid.ColumnDefinitions>
+      
+      <StackLayout Orientation="Vertical"  Grid.ColumnSpan="2"
+               Padding="30">
+        <Label x:Name="lblApp" Text="Aplikacja Student" Grid.Row="0" Style="{StaticResource HeaderStyle}"/>
+        <Label x:Name="lblApp2" Text="Logowanie" Grid.Row="0" Style="{StaticResource SubHeaderStyle}"/>
+      </StackLayout>
+      
+      <Label x:Name="lblUser" Text="Użytkownik:" Grid.Row="1"  Style="{StaticResource HeaderStyle}"/>
+      <Label x:Name="lblPassword" Text="Hasło:" Grid.Row="2"  Style="{StaticResource HeaderStyle}"></Label>
+      
+      <Entry x:Name="txtUser" Grid.Column="1"  Grid.Row="1" Placeholder="Nazwa użytkownika"></Entry>
+      <Entry x:Name="txtPassword" Grid.Column="1" Grid.Row="2" IsPassword="True" Placeholder="Hasło"></Entry>
+     
+        <Label x:Name="pusty" Grid.Row="3"  Grid.ColumnSpan="2"></Label>
+
+    <Button Text="Zaloguj" x:Name="btnLogin" Grid.Row="4" Grid.Column="0" Clicked="BtnLogin_OnClicked">
+
+      <!--<Button.Image>
+        <OnPlatform x:TypeArguments="FileImageSource"
+                WinPhone="Login.png" />
+      </Button.Image>-->
+    </Button>
+    <Button Text="Gość" x:Name="btnGosc" Grid.Row="4" Grid.Column="1" Clicked="BtnGosc_OnClicked"></Button>
+   
+      <StackLayout Grid.Row="5"  Grid.ColumnSpan="2" VerticalOptions="Center" HorizontalOptions="Center" >
+        
+        <Image x:Name="img" Source="MyButtonImage.png" ></Image>
+
+
+        <Label x:Name="txtStatus"  Style="{StaticResource HeaderStyle}"></Label>
+      </StackLayout>
+
+    </Grid>
+</ContentPage>

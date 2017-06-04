@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Settings">
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition ></RowDefinition>
+      <RowDefinition Height="40"></RowDefinition>
+      <RowDefinition Height="40" ></RowDefinition>
+      <RowDefinition Height="40" ></RowDefinition>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition Height="40"/>
+      <RowDefinition Height="40"/>
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition></ColumnDefinition>
+      <ColumnDefinition></ColumnDefinition>
+    </Grid.ColumnDefinitions>
+    <Label Text="Ustawienia" Style="{StaticResource HeaderStyle}" Grid.ColumnSpan="2"/>
+
+    <Label Text="Uzytkownik" Grid.Row="1"></Label>
+    <Entry x:Name="txtUser" Grid.Row="1" Grid.Column="1"></Entry>
+    
+    <Label Text="Haslo" Grid.Row="2"></Label>
+    <Entry x:Name="txtPassword" IsPassword="True"  Grid.Row="2" Grid.Column="1"></Entry>
+
+    <Label Text="Powtorz Haslo" Grid.Row="3"></Label>
+    <Entry x:Name="txtPassword2" IsPassword="True" Grid.Row="3" Grid.Column="1"></Entry>
+    
+    <Label Text="" Grid.Row="5" x:Name="lblError"></Label>
+    <Button x:Name="btnSave" Text="Zapisz zmiany" Grid.Row="6" Grid.ColumnSpan="2" Clicked="BtnSave_OnClicked"></Button>
+  </Grid>
+</ContentPage>

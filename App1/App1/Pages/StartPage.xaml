@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SI2projekt.StartPage">
+
+
+  <Grid>
+
+    <Grid.RowDefinitions>
+
+
+      <RowDefinition Height="150"/>
+      <RowDefinition />
+      <RowDefinition />
+      <RowDefinition />
+      <RowDefinition />
+    </Grid.RowDefinitions>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition/>
+      <ColumnDefinition/>
+      <ColumnDefinition/>
+      <ColumnDefinition/>
+    </Grid.ColumnDefinitions>
+    <StackLayout Orientation="Vertical"  Grid.ColumnSpan="4" Padding="30" Grid.Column="0">
+      <Label x:Name="lblApp" Text="Aplikacja Student"  Grid.Row="0"  Style="{StaticResource HeaderStyle}"></Label>
+      <Label x:Name="lblDayOfWeek" Text=""  Grid.Row="0"  Style="{StaticResource SubHeaderStyle}"></Label>
+      <Label x:Name="lblTimer" Text=""  Grid.Row="0"  Style="{StaticResource SubHeaderStyle}"></Label>
+    </StackLayout>
+
+    <Button Text="Plan zajęć" x:Name="btnPlan" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="1" Clicked="BtnPlan_OnClicked" ></Button>
+    <Button Text="Budynki" x:Name="btnBuldings" Grid.ColumnSpan="2" Grid.Column="2" Grid.Row="1" Clicked="BtnBuldings_OnClicked"></Button>
+    <Button Text="Nawiguj" x:Name="btnNav" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="2" Clicked="BtnNav_OnClicked"></Button>
+    <Button Text="Zapisz profil" x:Name="btnZapisz" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="3" Clicked="BtnZapisz_OnClicked"></Button>
+
+    <Button Text="Ustawienia" x:Name="btnUstawienia" Grid.ColumnSpan="2" Grid.Column="2" Grid.Row="3" Clicked="BtnUstawienia_OnClicked"></Button>
+    <Button Text="POI" x:Name="btnPOI" Grid.ColumnSpan="2" Grid.Column="2" Grid.Row="2"  Clicked="BtnExt_OnClicked"></Button>
+
+    <Button Text="Wyloguj" x:Name="btnWyloguj" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="4" Clicked="BtnWyloguj_OnClicked"></Button>
+    <!--<Button Text="Wyjscie" x:Name="btnWyjscie" Clicked="BtnWyjscie_OnClicked"></Button>-->
+    <!--<Button Text="Ustawienia" x:Name="btnSettings" Clicked="BtnSettings_OnClicked"></Button>-->
+
+  </Grid>
+  
+</ContentPage>

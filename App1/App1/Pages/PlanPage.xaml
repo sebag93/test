@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SI2projekt.PlanPage">
+
+  <Frame x:Name="glowny">
+  <StackLayout>
+    <Label x:Name="schedule" Text="Plan zajec" Style="{StaticResource HeaderStyle}"/>
+ 
+    <Label x:Name="data"></Label>
+    <Label x:Name="lblStatus" Style="{StaticResource SubHeaderStyle}" ></Label>
+    
+    <StackLayout x:Name="ScheduleLayout">
+      
+    </StackLayout>
+    <Label x:Name="star" Text="************************" Style="{StaticResource HeaderStyle}"/>
+    <Label x:Name="lblSwipe" Text="Przesuń palcem w prawo lub lewo  " Style="{StaticResource HeaderStyle}"/>
+  <!--  <ListView x:Name="lsvPlan" Header="">
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <ViewCell.View>
+              <StackLayout Orientation="Horizontal" BackgroundColor="Blue">
+                <Label Text="{Binding Name}" />
+              </StackLayout>
+            </ViewCell.View>
+          </ViewCell>
+          
+          <ViewCell>
+            
+            <StackLayout Orientation="Horizontal" BackgroundColor="Aqua" >
+              <Label Text="{Binding StartTime}" WidthRequest="80"></Label>
+              <StackLayout Orientation="Vertical" BackgroundColor="Fuchsia">
+                <Label Text="{Binding Name}"></Label>
+              </StackLayout>
+            </StackLayout>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>-->
+  </StackLayout></Frame>
+ 
+</ContentPage>
